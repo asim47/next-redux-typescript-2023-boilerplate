@@ -1,0 +1,67 @@
+// @import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "./variables/Variables";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $Font;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $Font;
+  scroll-padding-top: 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+input {
+  font-family: $Font;
+}
+
+p,
+button,
+li,
+span {
+  font-family: $Font;
+  box-shadow: none !important;
+}
+
+button{
+  font-family: $Font;
+  text-transform: capitalize !important;
+}
+
+@import "mixins/Flex.scss";
+@import "./components/Home";
+
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $MAIN_BACKGROUND_COLOR;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $DARK_BLUE;
+  transition: all 0.5s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $DARK_BLUE;
+}
+::-webkit-scrollbar-button {
+  height: .5px;
+  background: $DARK_BLUE;
+}
