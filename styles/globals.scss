@@ -48,20 +48,20 @@ button{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: $MAIN_BACKGROUND_COLOR;
+  background: $BACKGROUND_COLOR_MAIN;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: $DARK_BLUE;
+  background: $PRIMARY_COLOR;
   transition: all 0.5s;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: $DARK_BLUE;
+  background: $PRIMARY_COLOR;
 }
 ::-webkit-scrollbar-button {
   height: .5px;
-  background: $DARK_BLUE;
+  background: $PRIMARY_COLOR;
 }
