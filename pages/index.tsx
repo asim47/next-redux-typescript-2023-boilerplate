@@ -1,13 +1,12 @@
 // This is the page that will be rendered at / and /index
-import Head from 'next/head'
-import { Header } from '../src/components/home/Header'
-import { Footer, NavBarComp } from '../src/commonComponents'
+import Head from 'next/head';
+import { Header } from '../src/components/home/Header';
+import { Footer, NavBarComp } from '../src/commonComponents';
 
-const baseURL = "https://webiste.com"
-const pageUrl = `${baseURL}/`
-const pageImage = ``
-const title = `Title Goes here`
-
+const baseURL = 'https://webiste.com';
+const pageUrl = `${baseURL}/`;
+const pageImage = ``;
+const title = `Title Goes here true`;
 
 export default function Home() {
   return (
@@ -31,5 +30,5 @@ export default function Home() {
       <Header />
       <Footer />
     </>
-  )
+  );
 }
