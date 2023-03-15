@@ -10,14 +10,10 @@ import "slick-carousel/slick/slick-theme.css";
 import '../styles/globals.scss'
 
 
-const baseURL = "https://hicartel.com"
-
+const baseURL = "https://webiste.com"
 const pageUrl = `${baseURL}/`
-
-const pageImage = `https://res.cloudinary.com/dmzh49s7d/image/upload/v1673552815/Cartel_Logo_Design_Concepts-06_zfw2sg.png`
-
-
-const title = `Cartel | Find the right team |`
+const pageImage = ``
+const title = `Title Goes here`
 
 
 export default function App({ Component, pageProps }: AppProps) {
