@@ -1,0 +1,24 @@
+version = 0.2
+[dev]
+[dev.deploy]
+[dev.deploy.parameters]
+stack_name = "sbc-webapp"
+region = "ap-southeast-2"
+capabilities = "CAPABILITY_IAM CAPABILITY_AUTO_EXPAND"
+image_repositories = []
+
+[sandbox]
+[sandbox.deploy]
+[sandbox.deploy.parameters]
+stack_name = "sbc-webapp"
+region = "ap-southeast-2"
+capabilities = "CAPABILITY_IAM CAPABILITY_AUTO_EXPAND"
+image_repositories = []
+
+[production]
+[production.deploy]
+[production.deploy.parameters]
+stack_name = "sbc-webapp"
+region = "ap-southeast-2"
+capabilities = "CAPABILITY_IAM CAPABILITY_AUTO_EXPAND"
+image_repositories = []

@@ -1,7 +1,16 @@
-import { ThemeOptions, createTheme } from "@mui/material";
-import { BACKGROUND_COLOR_MAIN, BACKGROUND_COLOR_SECONDARY, ERROR_COLOR, Font, INFO_COLOR, PRIMARY_COLOR, SECONDARY_COLOR, TEXT_COLOR_MAIN } from "../constants";
+import { createTheme } from '@mui/material';
+import {
+  BACKGROUND_COLOR_MAIN,
+  BACKGROUND_COLOR_SECONDARY,
+  ERROR_COLOR,
+  FONT,
+  INFO_COLOR,
+  PRIMARY_COLOR,
+  SECONDARY_COLOR,
+  TEXT_COLOR_MAIN,
+} from '../constants';
 
-export const themeOptions: ThemeOptions = createTheme({
+export const themeOptions = createTheme({
   palette: {
     primary: {
       main: PRIMARY_COLOR,
@@ -24,7 +33,9 @@ export const themeOptions: ThemeOptions = createTheme({
     },
   },
   typography: {
-    fontFamily: Font,
+    fontFamily: FONT,
+    button: {
+      textTransform: 'none',
+    },
   },
-
 });

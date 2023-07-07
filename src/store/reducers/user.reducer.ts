@@ -1,18 +1,20 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { UserStore } from '../../interfaces';
+
+const initialState: UserStore = {
+  isAuth: false,
+};
 
 export const UserSlice = createSlice({
-    name: 'User',
-    initialState: {
-        UserData: null,
-        IsAuth: false,
-        Token: null,
+  name: 'User',
+  initialState,
+  reducers: {
+    setUserData(state, action) {
+      state.isAuth = true;
     },
-    reducers: {
-
-    },
+  },
 });
 
-// export const { } = UserSlice.actions
-
+export const { setUserData } = UserSlice.actions;
 
 export const UserReducer = UserSlice.reducer;
