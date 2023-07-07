@@ -1,5 +1,4 @@
-// @import '../node_modules/bootstrap/scss/bootstrap.scss';
-@import "./variables/Variables";
+@import './variables/Variables';
 html,
 body {
   padding: 0;
@@ -32,14 +31,13 @@ span {
   box-shadow: none !important;
 }
 
-button{
+button {
   font-family: $Font;
   text-transform: capitalize !important;
 }
 
-@import "mixins/Flex.scss";
-@import "./components/Home";
-
+@import 'mixins/Flex.scss';
+@import './components/Home';
 
 ::-webkit-scrollbar {
   width: 3px;
@@ -62,6 +60,6 @@ button{
   background: $PRIMARY_COLOR;
 }
 ::-webkit-scrollbar-button {
-  height: .5px;
+  height: 0.5px;
   background: $PRIMARY_COLOR;
 }
